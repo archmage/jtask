@@ -15,5 +15,4 @@ hs_err_pid*
 out/
 .idea/
 *.iml
-settings.ini
 *.tsk
