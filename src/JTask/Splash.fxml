@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onClick_vbox" prefHeight="140.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8.0.91" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="240.0" text="JTask">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" text="v1.0" />
+      <Label alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="36.0" prefWidth="240.0" text="Thanks for using my software! Check out some of my other work at:" textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets left="15.0" right="15.0" top="2.0" />
+         </padding>
+      </Label>
+      <Hyperlink fx:id="projectLink" alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" onAction="#openProjectUrl" prefHeight="0.0" prefWidth="240.0" text="http://archmage.me" textAlignment="CENTER" />
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" text="loading... please wait!">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ProgressBar maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="240.0" progress="0.0">
+         <VBox.margin>
+            <Insets bottom="2.0" top="2.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </ProgressBar>
+   </children>
+</VBox>

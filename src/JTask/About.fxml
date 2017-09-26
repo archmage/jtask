@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onClick_vbox" prefHeight="140.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JTask.AboutController">
+   <children>
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" text="JTask">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" text="v1.0" />
+      <Label alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="100.0" text="JTask is a free todo manager developed by Kara &quot;Archmage&quot; Valentine." textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets left="15.0" right="15.0" top="10.0" />
+         </padding>
+      </Label>
+      <Hyperlink fx:id="projectLink" alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" onAction="#openProjectUrl" prefWidth="100.0" text="https://github.com/archmage/jtask" textAlignment="CENTER" />
+      <Label alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" text="click anywhere to close">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
